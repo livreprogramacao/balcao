@@ -4,15 +4,7 @@ import {AuthenticationService} from './authentication.service'
 @Component({
     selector: 'login-form',
     providers: [AuthenticationService],
-    template: `
-            <div class="container" >
-                <div class="content">
-                    <span>Parabéns, acesso realizado com sucesso!!!</span>
-                    <br />
-                    <a (click)="logout()" href="#">Encerrar sessão.</a>
-                </div>
-            </div>
-    	`
+    templateUrl: './app/private.component.html'
 })
 
 export class PrivateComponent {
