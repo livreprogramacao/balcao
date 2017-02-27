@@ -1,4 +1,6 @@
 war/target
+front-end/angular/app/*.js
+front-end/angular/app/*.js.*
 front-end/bootstrap-3.3.7
 npm-debug.log
 node_modules/
