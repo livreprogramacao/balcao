@@ -56,68 +56,16 @@
             </div>
         </nav>
 
-        <!-- Troca sem Cupom - TP-PDV-155 Troca sem cupom -->
-        <!-- Troca com Cupom - TP-PDV-156 Troca com cupom -->
+        <h2>NOTA FISCAL</h2>
 
-        <!-- Operação de Balcão - Informe dados da transação -->
-
-        <div class="container">
-
-            <div class="form-group row">
-                <h1><span class="label label-info">Informe dados da transação</span></h1>
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                <p>Deseja reimprimir a Nota?</p>
+                <a href="pdv198.html" class="btn btn-primary">OK</a>
+                <button type="submit" class="btn btn-error">Cancela</button>
             </div>
-            <br />
-
-            <!-- Com cupom, Sem cupom -->
-            <div class="form-group row">
-                <label for="comcupom" class="col-sm-2 col-form-label">Com cupom</label>
-                <div class="col-sm-1"><input type="checkbox" class="form-control" id="comcupom" placeholder="" /></div>
-                <label for="semcupom" class="col-sm-2 col-form-label">Sem cupom</label>
-                <div class="col-sm-1"><input type="checkbox" class="form-control" id="semcupom" placeholder="" /></div>
-            </div>
-
-            <!-- PDV -->
-            <div class="form-group row">
-                <label for="pdv" class="col-sm-2 col-form-label">PDV</label>
-                <div class="col-sm-4"><input type="number" class="form-control" id="pdv" placeholder="" /></div>
-            </div>
-
-            <!-- Transação -->
-            <div class="form-group row">
-                <label for="transacao" class="col-sm-2 col-form-label">Transação</label>
-                <div class="col-sm-4"><input type="text" class="form-control" id="transacao" placeholder="" /></div>
-            </div>
-
-            <h3>Tipo de nota</h3>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><input type="radio" aria-label="..." name="tiponotafiscal" id="impressa"></input></span>
-                        <label for="impressa" class="form-control">Impressa</label>
-                    </div>
-                    <!-- /input-group -->
-                </div>
-                <!-- /.col-lg-6 -->
-                <div class="col-lg-6">
-                    <div class="input-group">
-                        <span class="input-group-addon"><input type="radio" aria-label="..." name="tiponotafiscal" id="email"></input></span>
-                        <input type="text" class="form-control" aria-label="..." placeholder="informe o email de destino" name="emaildestino" id="emaildestino"></input>
-                    </div>
-                    <!-- /input-group -->
-                </div>
-                <!-- /.col-lg-6 -->
-            </div>
-            <!-- /.row -->
-
-            <br />
-            <div class="form-group row">
-                <div class="offset-sm-2 col-sm-10">
-                    <a href="pdv198a.html" class="btn btn-primary">Confirma</a>
-                </div>
-            </div>
-            </form>
-
         </div>
+
     </div>
 
     <!-- Bootstrap core JavaScript
