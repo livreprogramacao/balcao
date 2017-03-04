@@ -1,0 +1,148 @@
+<test-menu-principal></test-menu-principal>
+
+<!-- Troca sem Cupom - TP-PDV-155 Troca sem cupom -->
+<!-- Troca com Cupom - TP-PDV-156 Troca com cupom -->
+
+<!-- Operação de Balcão - Informe dados do cliente - CPF -->
+
+<div class="container">
+
+    <div class="form-group row">
+        <h1><span class="label label-info">Informe dados do cliente</span></h1>
+    </div>
+    <br />
+
+    <form class="form-horizontal">
+
+        <!-- Identificação, CPF, CNPJ -->
+        <div class="form-group row">
+            <label for="identificacao" class="col-sm-2 col-form-label">
+                    Identificação
+                    </label>
+
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="identificacao" placeholder="123.456.789-09" />
+            </div>
+
+            <fieldset class="col-sm-4">
+                <div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="cpfcnpj" id="cpfcnpj1" value="CPF" checked/>
+                CPF
+              </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="cpfcnpj" id="cpfcnpj2" value="CNPJ"/>
+                CNPJ
+              </label>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- Nome -->
+        <div class="form-group row">
+            <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nome" placeholder="Nome"/>
+            </div>
+        </div>
+
+        <!-- Endereço, Número -->
+        <div class="form-group row">
+
+            <label for="endereco" class="col-sm-2 col-form-label">Endereço</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="endereco" placeholder="Rua George Eastman"/>
+            </div>
+
+            <label for="numero" class="col-sm-2 col-form-label">Número</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="numero" placeholder="213"/>
+            </div>
+
+        </div>
+
+        <!-- Complemento, Bairro -->
+        <div class="form-group row">
+
+            <label for="complemento" class="col-sm-2 col-form-label">Complemento</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="complemento" placeholder="Complemento"/>
+            </div>
+
+            <label for="bairro" class="col-sm-2 col-form-label">Bairro</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="bairro" placeholder="REAL PARQUE"/>
+            </div>
+
+        </div>
+
+        <!-- Municipio, UF, Telefone -->
+        <div class="form-group row">
+
+            <label for="municipio" class="col-sm-2 col-form-label">Municipio</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="municipio" placeholder="São Paulo"/>
+            </div>
+
+            <label for="uf" class="col-sm-1 col-form-label">UF</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="uf" placeholder="SP"/>
+            </div>
+
+            <label for="telefone" class="col-sm-1 col-form-label">Telefone</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="telefone" placeholder="(11) 3990-0099"/>
+            </div>
+
+        </div>
+
+        <!-- CEP -->
+        <div class="form-group row">
+            <label for="cep" class="col-sm-2 col-form-label">CEP</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="cep" placeholder="04780-000"/>
+            </div>
+        </div>
+
+        <!-- Inscrição Estadual, Inscrição Municipal  -->
+        <div class="form-group row">
+
+            <label for="inscricaoestadual" class="col-sm-2 col-form-label">Inscrição Estadual</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inscricaoestadual" placeholder="ISENTO"/>
+            </div>
+
+            <label for="inscricaomunicipal" class="col-sm-2 col-form-label">Inscrição Municipal</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="inscricaomunicipal" placeholder="ISENTO"/>
+            </div>
+
+        </div>
+
+        <!-- E-mail -->
+        <div class="form-group row">
+            <label for="email" class="col-sm-2 col-form-label">E-mail</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="email" placeholder=""/>
+            </div>
+        </div>
+
+        <!-- Dados adicionais -->
+        <div class="form-group row">
+            <label for="observacao" class="col-sm-2 col-form-label">Dados adicionais</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="observacao" placeholder=""/>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                <a routerLink="/menu" class="btn btn-primary">Confirma</a>
+                <button type="submit" class="btn btn-primary">Cancela</button>
+            </div>
+        </div>
+    </form>
