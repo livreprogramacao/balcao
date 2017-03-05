@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { DivergenciaComponent } from './divergencia.component';
+
+const routes: Routes = [
+  { path: "divergencia", component: DivergenciaComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

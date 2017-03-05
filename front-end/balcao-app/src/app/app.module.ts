@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginModule } from './login/login.module';
 import { MenuPrincipalModule } from './menu-principal/menu-principal.module';
 import { TrocaModule } from './troca/troca.module';
+import { ReembolsoModule } from './reembolso/reembolso.module';
 import { AnulacaoModule } from './anulacao/anulacao.module';
 import { NotaFiscalModule } from './nota-fiscal/nota-fiscal.module';
 import { DivergenciaModule } from './divergencia/divergencia.module';
@@ -28,8 +29,14 @@ import { ClienteModule } from './cliente/cliente.module';
     FormsModule,
     HttpModule,
     LoginModule,
-    MenuPrincipalModule,
     TrocaModule,
+    ReembolsoModule,
+    AnulacaoModule,
+    NotaFiscalModule,
+    DivergenciaModule,
+    CancelamentoModule,
+    ClienteModule,
+    MenuPrincipalModule,
     AppRoutingModule
   ],
   providers: [],

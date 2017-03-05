@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { NotaFiscalComponent } from './nota-fiscal.component';
+
+const routes: Routes = [ 
+  { path: "nota-fiscal", component: NotaFiscalComponent},
+  { path: "nota-fiscal-reimpressao", component: NotaFiscalComponent},
+  { path: "nota-fiscal-doacao", component: NotaFiscalComponent},
+  { path: "nota-fiscal-sair", component: NotaFiscalComponent}
+  ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

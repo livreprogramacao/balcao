@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CancelamentoRoutingModule } from './cancelamento-routing.module';
-import { CancelamentoComponent } from './cancelamento.component';
+import { ReembolsoRoutingModule } from './reembolso-routing.module';
+import { ReembolsoComponent } from './reembolso.component';
 
 import { MenuPrincipalModule } from '../menu-principal/menu-principal.module';
 
@@ -9,8 +9,8 @@ import { MenuPrincipalModule } from '../menu-principal/menu-principal.module';
   imports: [
     CommonModule,
     MenuPrincipalModule,
-    CancelamentoRoutingModule
+    ReembolsoRoutingModule
   ],
-  declarations: [CancelamentoComponent]
+  declarations: [ReembolsoComponent]
 })
-export class CancelamentoModule { }
+export class ReembolsoModule { }
