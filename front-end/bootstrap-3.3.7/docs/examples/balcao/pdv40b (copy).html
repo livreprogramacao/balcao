@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Produto</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../../favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+                crossorigin="anonymous"></script>
+                <style type="text/css">
+                    .bs-example {
+                        margin: 20px;
+                    }
+                </style>
+</head>
+
+<body>
+    <!-- Operação de Balcão - Informe dados dos produtos -->
+
+    <div class="container">
+
+        <ul class="nav nav-tabs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Atendimento</a></li>
+            <li class="active"><a href="#">Troca</a></li>
+            <li><a href="#">Reembolso</a></li>
+            <li><a href="#">Anulação</a></li>
+            <li><a href="#">Nota Fiscal</a></li>
+            <li><a href="#">Divergência</a></li>
+        </ul>
+
+
+        <div class="form-group row">
+            <h1><span class="label label-default">Dados do item</span></h1>
+        </div>
+        <br />
+
+        <form class="form-horizontal">
+
+            <!-- Código, Quantidade -->
+            <div class="form-group row">
+
+                <label for="codigoitem" class="col-sm-1 col-form-label">Código</label>
+                <div class="col-sm-4">
+                    <input type="number" class="form-control" id="codigoitem" placeholder="123456"></input>
+                </div>
+
+                <label for="quantidade" class="col-sm-1 col-form-label">Quantidade</label>
+                <div class="col-sm-4">
+                    <input type="number" class="form-control" id="quantidade" placeholder="1.000"></input>
+                </div>
+
+            </div>
+
+            <!-- Descrição, Setor -->
+            <div class="form-group row">
+
+                <label for="descricao" class="col-sm-1 col-form-label">Descrição</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="descricao" placeholder="AGUA BONAFONT "></input>
+                </div>
+
+                <label for="setor" class="col-sm-1 col-form-label">Setor</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="setor" placeholder="10 - Liquida"></input>
+                </div>
+
+            </div>
+
+            <!-- Unidade -->
+            <div class="form-group row">
+
+                <label for="unidade" class="col-sm-1 col-form-label">Unidade</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="unidade" placeholder="UN"></input>
+                </div>
+
+            </div>
+
+            <!-- Preço Unitário -->
+            <div class="form-group row">
+
+                <label for="precounitario" class="col-sm-1 col-form-label">Preço Unitário</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="precounitario" placeholder="1,99"></input>
+                </div>
+
+            </div>
+
+            <!-- Preço Total -->
+            <div class="form-group row">
+
+                <label for="precototal" class="col-sm-1 col-form-label">Preço Total</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="precototal" placeholder="3,98"></input>
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-success">Confirma</button>
+                    <button type="submit" class="btn btn-default">Cancela</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html>
